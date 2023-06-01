@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <button class="btn" id="resume">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button class="btn" id="pause">
+          <i class="fa-solid fa-pause"></i>
+        </button>
+      </div>
+      <textarea
+        name=""
+        placeholder="Enter some text here..."
+        id="text"
+        rows="6"
+      ></textarea>
+      <button id="submit" type="submit">Submit</button>
+    </div>
+  </body>
+</html>

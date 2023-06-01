@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #8e44ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 60vh;
+  width: 550px;
+  background-color: #000;
+  border: 2px solid #8e44ad;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 5px #000;
+  overflow: hidden;
+}
+
+#display{
+  height: 10vh;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 10vh;
+}
+
+.box form{
+  height: 35vh;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 35vh;
+  text-align: center;
+}
+
+input{
+  width: 130px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #8e44ad;
+  color: #8e44ad;
+  font-size: 3.5rem;
+  background: transparent;
+  text-align: center;
+}
+
+input::placeholder{
+  font-size: 1.2rem;
+  color: #8e44ad;
+  font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn{
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 15vh;
+}
+
+.btn button{
+  padding: 8px 10px;
+  font-size: 1.5rem;
+  background-color: #292828;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn button:hover{
+  background-color: #8e44ad;
+  transition: 0.5s;
+}
+
+@media (max-width: 575px){
+
+  .box{
+    height: 58vh;
+    width: 330px;
+  }
+
+  .box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn{
+    height: 10vh;
+    line-height: 10vh;
+  }
+}
+
+@media (max-width: 350px){
+  .box{
+    width: 250px;
+  }
+}

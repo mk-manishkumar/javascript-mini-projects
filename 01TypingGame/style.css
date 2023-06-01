@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "BhuTuka Expanded One", cursive;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  color: #ecf0fe;
+  text-shadow: 6px, 5px, 9px #292929;
+  font-size: 2.2rem;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: purple;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+#textarea {
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px 15px 0 0;
+  border: 13px solid #343434;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+  padding: 5px;
+}
+#btnTwo,
+.mainbtn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 5px solid #298029;
+  font-size: 1rem;
+  background: #ecf0fe;
+  margin: auto;
+}
+@media (max-width: 900px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: purple;
+  }
+
+  #textarea {
+    width: 310px;
+    height: 250px;
+    border: 1px solid blue;
+  }
+}
+
+@media (max-width: 320px) {
+  #textarea {
+    width: 270px;
+  }
+}

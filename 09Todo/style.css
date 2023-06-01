@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(224, 142, 26);
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 50;
+  margin: 1rem 0 3rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+}
+
+.heading {
+  font-weight: 800;
+  color: rgb(23, 235, 48);
+}
+
+.input_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.input_div .input {
+  padding: 0.5rem 1rem;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #ffff;
+  width: 450px;
+  font-size: 1.15rem;
+  margin: 0.25rem;
+  border-radius: 25px;
+}
+
+.addButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: #fff;
+  margin: 0.25rem;
+  background-color: rgba(25, 190, 185, 0.485);
+  cursor: pointer;
+}
+
+.addButton:hover {
+  opacity: 0.7;
+}
+
+.item {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid #fff;
+}
+
+.item_input {
+  background: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 350px;
+  font-size: 1.4rem;
+}
+
+.editButton {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  font-family: "Bebas Neue", cursive;
+  background: none;
+  outline: none;
+  color: #383cc1;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteButton {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  font-family: "Bebas Neue", cursive;
+  background: none;
+  outline: none;
+  color: rgb(223, 16, 16);
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* for javascript */
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  background-color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+  width: 32rem;
+}
+
+.list {
+  border: none;
+  outline: none;
+  padding: 5px;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  padding: 5px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 525px) {
+  .input_div .input {
+    width: 17rem;
+  }
+
+  .input_div {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .addButton {
+    border-radius: 10px;
+  }
+
+  .lists {
+    width: 17rem;
+  }
+
+  .list {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 325px){
+  .input_div .input,
+  .lists{
+    width: 15rem;
+  }
+
+  .lists{
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,110 @@
+body {
+  background-color: #af9d5a;
+}
+
+.textview {
+  display: inline-block;
+  margin: 18px;
+  width: 296px;
+  height: 59px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #23c4ed;
+  border: none;
+  padding: 0.4rem;
+}
+
+.equalButton {
+  cursor: pointer;
+  display: inline-block;
+  margin: 2px;
+  width: 70px;
+  height: 70px;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.button,
+.delbutton {
+  cursor: pointer;
+  display: inline-block;
+  margin: 2px;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+}
+
+.button:active,
+.allclearButton:active,
+.equalButton:active,
+.delbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.button:hover,
+.equalButton:hover,
+.delbutton:hover {
+  background-color: #1fcc4a;
+  border-top: 2px solid #383cc1;
+  border-right: 2px solid #383cc1;
+  border-bottom: 2px solid #ae5700;
+  border-left: 2px solid #ae5700;
+}
+
+.allclearButton {
+  border-radius: 10px;
+  color: #fff;
+  margin: 2px;
+  width: 70px;
+  height: 70px;
+  text-shadow: -1px -1px 0px #44006f;
+  background-color: #d20000;
+  border-top: 2px solid #ff8484;
+  border-right: 2px solid #ff8484;
+  border-bottom: 2px solid #800000;
+  border-left: 2px solid #800000;
+  box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #b00000;
+  outline: none;
+}
+
+.container {
+  background: #120e43;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+table {
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 350px) {
+  .container {
+    width: 275px;
+  }
+
+  .textview {
+    width: 225px;
+  }
+
+  .equalButton,
+  .allclearButton,
+  .button,
+  .delbutton {
+    width: 60px;
+  }
+
+  table {
+    padding-bottom: 2px;
+  }
+}
