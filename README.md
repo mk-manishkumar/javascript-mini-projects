@@ -8,6 +8,9 @@
 
 This repository contains 15 mini projects that are made in HTML, CSS, and JavaScript. The projects range in complexity from simple calculators to complex password generators.
 
+[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://js-mini-projects-mk.netlify.app/)
+
+
 ## Screenshots
 
 ![image](./01TypingGame/01-screenshot.jpg)
@@ -41,4 +44,3 @@ This repository contains 15 mini projects that are made in HTML, CSS, and JavaSc
 ![image](./15StopWatch/15-screenshot.jpg)
 
 
-[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://js-mini-projects-mk.netlify.app/)
