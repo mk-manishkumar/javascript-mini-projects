@@ -77,6 +77,6 @@ function winner() {
     userScoreVal.innerText = Number(userScoreVal.innerText) + 1;
   } else {
     resultFinalStat.innerHTML = "Winner: Computer";
-    compScoreVal.innerText = Number(userScoreVal.innerText) + 1;
+    compScoreVal.innerText = Number(compScoreVal.innerText) + 1;
   }
 }
