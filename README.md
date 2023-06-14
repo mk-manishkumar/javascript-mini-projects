@@ -1,7 +1,7 @@
 # JAVASCRIPT MINI PROJECTS
 
 ![image](https://img.shields.io/badge/JavaScript-orange) 
-![image](https://img.shields.io/badge/JavaScript_Mini_Projejects-000)
+![image](https://img.shields.io/badge/JavaScript_Mini_Projejects-8D3DAF)
 ![image](https://img.shields.io/badge/MANISH-KUMAR-blue)
 
 ## About
