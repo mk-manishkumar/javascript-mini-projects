@@ -43,4 +43,15 @@ This repository contains 15 mini projects that are made in HTML, CSS, and JavaSc
 
 ![image](./15StopWatch/15-screenshot.jpg)
 
+![image](./16BookListApp/thumbnail.jpg)
+
+![image](./17StarRating/thumbnail.jpg)
+
+![image](./18Drag&Drop/thumbnail.jpg)
+
+![image](./19Modal/thumbnail.jpg)
+
+![image](./20Accordion/thumbnail.jpg)
+
+
 
