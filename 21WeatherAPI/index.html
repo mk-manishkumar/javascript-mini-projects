@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="src/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrap">
+        <input type="text" placeholder="Enter your location" id="input" />
+        <button class="btn" id="search">Search</button>
+      </div>
+
+      <div id="weatherDetails">
+        <img src="" alt="" id="weather-image" />
+        <h2 id="cityName"></h2>
+        <p id="weather"></p>
+        <p id="temperature"></p>
+        <p id="minMaxTemp">
+          <span class="min-temp"></span><span class="max-temp"></span>
+        </p>
+        <p id="wind"></p>
+        <p id="humidity"></p>
+        <p id="pressure"></p>
+      </div>
+      <div id="wrong-location">
+        <h2>Sorry, location not found</h2>
+      </div>
+    </div>
+  </body>
+</html>
