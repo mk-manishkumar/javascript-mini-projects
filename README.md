@@ -53,5 +53,9 @@ This repository contains 15 mini projects that are made in HTML, CSS, and JavaSc
 
 ![image](./20Accordion/thumbnail.jpg)
 
+![image](./21CountryAPI/thumbnail.jpg)
+
+![image](./22ReceipeAPI/thumbnail.jpg)
+
 
 
