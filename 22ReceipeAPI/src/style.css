@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #2874f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper,
+.recipe-div {
+  background-color: #ffffff;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wrap {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+}
+
+#input {
+  outline: none;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.button {
+  background-color: #2874f0;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#recipe-img {
+  width: 50%;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wrap-2 {
+  background-color: #2874f0;
+  padding: 0.4rem;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ingredients {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.ingredients li {
+  width: 50%;
+}
+
+.view-recipe {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#view-recipe-btn {
+  padding: 0.7rem 1rem;
+}
+
+.head {
+  display: flex;
+  justify-content: end;
+  padding: 1rem 0;
+}
+
+.close {
+  background-color: #2874f0;
+  color: #ffffff;
+  padding: 0.3rem;
+  border-radius: 50%;
+}
+
+.close:hover {
+  background-color: #333;
+}
+
+.instructions {
+  font-size: 12px;
+}
+
+.youtube {
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.youtube a {
+  font-size: 14px;
+  color: #2874f0;
+}
