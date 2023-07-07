@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Filter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bg-blue-500 py-5">
+      <div class="container mx-auto text-center">
+        <h1 class="text-center text-3xl text-white">Developer List</h1>
+        <input
+          id="myInput"
+          type="search"
+          placeholder="Search by names..."
+          class="w-full mt-4 md:w-96 px-4 py-3 text-xl border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+    </header>
+
+    <div class="container mx-auto">
+      <table
+        class="w-full bg-white border border-gray-300 rounded-lg"
+        id="myTable"
+      >
+        <thead>
+          <tr>
+            <th class="py-2 px-4 bg-gray-200 text-left">SR NO.</th>
+            <th class="py-2 px-4 bg-gray-200 text-left">NAME</th>
+            <th class="py-2 px-4 bg-gray-200 text-left">DEGREE</th>
+            <th class="py-2 px-4 bg-gray-200 text-left">PROFESSION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="py-2 px-4 border-b">1</td>
+            <td class="py-2 px-4 border-b">ABHISHEK</td>
+            <td class="py-2 px-4 border-b">M.TECH</td>
+            <td class="py-2 px-4 border-b">SAP CONSULTANT</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border-b">2</td>
+            <td class="py-2 px-4 border-b">RITESH</td>
+            <td class="py-2 px-4 border-b">M.TECH</td>
+            <td class="py-2 px-4 border-b">STORAGE ADMINISTRATOR</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border-b">3</td>
+            <td class="py-2 px-4 border-b">ANUBHAW</td>
+            <td class="py-2 px-4 border-b">M.TECH</td>
+            <td class="py-2 px-4 border-b">SAP PM</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border-b">4</td>
+            <td class="py-2 px-4 border-b">SUMAN</td>
+            <td class="py-2 px-4 border-b">M.TECH</td>
+            <td class="py-2 px-4 border-b">MULESOFT DEVELOPER</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border-b">5</td>
+            <td class="py-2 px-4 border-b">MANISH</td>
+            <td class="py-2 px-4 border-b">BCA</td>
+            <td class="py-2 px-4 border-b">SOFTWARE ENGINEER</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border-b">6</td>
+            <td class="py-2 px-4 border-b">RAVI</td>
+            <td class="py-2 px-4 border-b">BCA</td>
+            <td class="py-2 px-4 border-b">SALES MAN</td>
+          </tr>
+          <tr>
+            <td class="py-2 px-4 border-b">7</td>
+            <td class="py-2 px-4 border-b">RAHUL</td>
+            <td class="py-2 px-4 border-b">B.TECH</td>
+            <td class="py-2 px-4 border-b">BLOCKCHAIN ENGINEER</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
