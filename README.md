@@ -59,5 +59,5 @@ This repository contains 15 mini projects that are made in HTML, CSS, and JavaSc
 
 ![image](./23WeightConverter/thumbnail.jpg)
 
-
+![image](./24SearchFilter/thumbnail.jpg)
 
