@@ -27,7 +27,7 @@ li {
 }
 
 .live-filter {
-  width: 35rem;
+  width: 30rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 2rem;
   margin: 3rem 0;
@@ -38,7 +38,7 @@ li {
   background-color: #432c7a;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   color: #fff;
 }
 
@@ -62,6 +62,60 @@ li {
 
 .user-info {
   padding: 2rem;
-  height: 25rem;
+  height: 28rem;
   overflow: auto;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.user-data {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+}
+
+.user-data img {
+  max-width: 100%;
+  height: auto;
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.user-data div {
+  text-align: start;
+}
+
+.user-data div a {
+  text-decoration: none;
+}
+
+.user-data p {
+  text-transform: capitalize;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 525px) {
+  .user-data {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .user-data div {
+    text-align: center;
+  }
+
+  .live-filter{
+    width: 20rem;
+  }
 }
